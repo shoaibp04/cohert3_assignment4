@@ -1,0 +1,559 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background: #000;
+}
+
+main{
+    height: 150%;
+    width: 97%;
+    display: grid;
+    grid-template-rows: 16.5% 16.5% 16.5% 16.5% 16.5% 16.5%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-areas:"a a b c d"
+                        "a a b c e"
+                        "f g h h e"
+                        "f g h h i"
+                        "j j j k k"
+                        "j j j k k";
+    padding: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    overflow: none;
+}
+
+.box1{
+    padding: 20px;
+    grid-area: a;
+    background: #242424;
+    border: 2px solid #111111;
+    border-radius: 10px;
+}
+
+.box2{
+    grid-area: b;
+    background: linear-gradient(to bottom, #f5f5f5, #9b9b9b);
+    border: 2px solid #111111;
+    border-radius: 10px;
+    position: inherit;
+}
+
+.box3{
+    grid-area: c;
+    background: linear-gradient(to bottom, #f5f5f5, #9b9b9b);
+    border: 2px solid #111111;
+    border-radius: 10px;
+}
+
+.box4{
+    grid-area: d;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.box5{
+    grid-area: e;
+    border: 2px solid #111111;
+    background-color: #141414;
+    border-radius: 10px;
+    padding:15% 10% ;
+}
+
+.box6{
+    grid-area: f;
+    background-color: #eeeef6;
+    border-radius: 10px;
+    border: 2px solid #111111;
+    position: relative;
+}
+
+.box7{
+    grid-area: g;
+    background-color: #141414;
+    border-radius: 10px;
+    border: 2px solid #111111;
+    padding:15% 10% ;
+}
+
+.box8{
+    grid-area: h;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid #111111;
+    position: relative;
+}
+
+.box9{
+    grid-area: i;
+    background-color: #141414;
+    border-radius: 10px;
+    border: 2px solid #111111;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.box10{
+    padding: 50px 20px;
+    grid-area: j;
+    background-color: #141414;
+    border-radius: 10px;
+    border: 2px solid #111111;
+    display: flex;
+}
+
+.box11{
+    padding: 20px;
+    grid-area: k;
+    background-color: #141414;
+    border-radius: 10px;
+    border: 2px solid #111111;
+}
+
+main .box1 #pp{
+    height: 15%;
+    width: 13%;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+} 
+
+main .box1 #pp img{
+    height: 50%;
+    width: 50%;
+    image-resolution: initial;
+    border-radius: 50%;
+    position: relative;
+}
+
+main .box1 #pp #bs{
+    margin-top: 4px;
+    height: 20px;
+    width: 100%;
+    color: white;
+    margin-left: 20px;
+}
+
+main .box1 #pp #bs p{
+    margin-top: -10px;
+    color: #828282;
+}
+
+main .box1 #dn{
+    color: white;
+    margin-top: 85px;
+    /* height: 20px; */
+}
+
+main .box1 #dn h2{
+        letter-spacing: 1px;
+}
+
+main .box1 #dn p{
+    color: #828282;
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+main .box2 img{
+    position: inherit;
+    height: 105%;
+    width: 100%;
+    margin-top: -6%;
+}
+
+main .box3 img{position: inherit;
+    height: 105%;
+    width: 100%;
+    margin-top: -6%;
+    
+}
+
+.box4{
+    height: 100%;
+    width: 100%;    
+    position: relative;
+}
+
+main .box4 #l1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    gap: 15%;
+}
+
+.box4 #l1 .b1{
+    position: absolute;
+    border: 2px solid #111111;
+    border-radius: 10px;
+    height: 45%;
+    width: 28%;
+}
+
+.box4 #l1 .b1 i{
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4 #l1 .b2{
+    position: absolute;
+    border: 2px solid #111111;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 36%;    
+    height: 45%;
+    width: 28%;
+}
+
+.box4 #l1 .b2 i{
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.box4 #l1 .b3{
+    position: absolute;
+    border: 2px solid #111111;
+    border-radius: 10px;
+    margin-left: 72%;    
+    height: 45%;
+    width: 28%;
+}
+
+.box4 #l1 .b3 i{
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.box4 #l2 .b4{
+    position: absolute;
+    border: 2px solid #111111;
+    border-radius: 10px;
+    height: 45%;
+    width: 28%;
+    margin-top: 3%;
+}
+
+.box4 #l2 .b4 i{
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4 #l2 .b5{
+    position: absolute;
+    border: 2px solid #111111;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 36%;    
+    height: 45%;
+    width: 28%;
+    margin-top: 3%;
+}
+
+.box4 #l2 .b5 i{
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.box4 #l2 .b6{
+    position: absolute;
+    border: 2px solid #111111;
+    border-radius: 10px;
+    margin-left: 72%;    
+    height: 45%;
+    width: 28%;
+    margin-top: 3%
+}
+
+.box4 #l2 .b6 i{
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.box5 p{
+    color: #828282;
+}
+
+.box5 h3{
+    color: white;
+    margin-top: 10%;
+}
+
+.box5 span{
+    position: absolute;
+    height:5.5%;
+    width:2.5%;
+    border-radius: 50%;
+    margin-top: 9%;
+    margin-left:12%;
+    border: 2px solid #111111;
+}
+
+.box5 span i{
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .box6 img{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+main .box7 p{
+    color: #828282;
+}
+
+main .box7 h3{
+    color: white;
+    margin-top: 10%;
+}
+
+.box7 #ic{
+    height: 100%;
+    width:100%;
+    margin-top: 25%;
+}
+
+.box7 #ic #l1{
+    height: 50%;
+    width:100%;
+    display: flex;
+    margin-left: 3%;
+}
+
+.box7 #ic #l2{
+    height: 50%;
+    width:100%;
+    display: flex;
+    margin-top:-15%;
+}
+
+.box7 #ic #l1 .i1{
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    height: 45%;
+    width: 27%;
+}
+
+.box7 #ic #l1 .i2{
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    height: 45%;
+    width: 27%;
+    margin-left: 7%;
+}
+
+.box7 #ic #l1 .i3{
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    height: 45%;
+    width: 27%;
+    margin-left: 7%;
+}
+
+.box7 #ic #l2 .i4{
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    height: 45%;
+    width: 27%;
+}
+
+.box7 #ic #l2 .i5{
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    height: 45%;
+    width: 27%;
+    margin-left: 7%;
+}
+
+.box7 #ic #l2 .i6{
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    height: 45%;
+    width: 27%;
+    margin-left: 7%;
+}
+
+.box7 #ic #l1 .i1 i{
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box7 #ic #l1 .i2 i{
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box7 #ic #l1 .i3 i{
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box7 #ic #l2 .i4 i{
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box7 #ic #l2 .i5 i{
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box7 #ic #l2 .i6 i{
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box8 img{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.box9 #inb{
+    position: absolute;
+    background-color: #262626;
+    border-radius: 15px;
+    height:20%;
+    width:25%;
+    transform: translate(150%,210%);
+}
+
+.box9 #c{
+    background-color: white;
+    height:20%;
+    width:12%;
+    border-radius: 50%;
+    transform: translate(420%,210%);
+}
+
+.box9 #c i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.box10 h2{
+    color: white;
+    letter-spacing: 1px;
+}
+
+.box10 p{
+    color: #828282;
+    margin-top: 7%;
+    font-size: large;
+    margin-top: 15%;
+}
+
+.box10 img{
+    height: 75%;
+    margin-top: 4.5%;
+    margin-left: 15%;
+}
+
+.box11 p{
+    color: #828282;
+    font-size: large;
+}
+
+.box11 h2{
+    color: white;font-size: large;
+    margin-top: 5%;
+    letter-spacing: 1px;
+}
+
+.box11 a p{
+    color: #828282;
+    font-size: large;
+    margin-top: 5%;
+}
+
+.box11 span{
+    position: absolute;
+    height:5.5%;
+    width:2.5%;
+    border-radius: 50%;
+    margin-top: 6%;
+    margin-left:31%;
+    border: 2px solid #111111;
+}
+
+.box11 span i{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+body footer{
+    height: 1%;
+    width: 100%;
+    background-color: #000000;
+    position: absolute;
+    margin-top: 3%;    
+}
